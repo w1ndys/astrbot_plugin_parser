@@ -14,6 +14,8 @@ _✨ 链接解析器 ✨_
 
 </div>
 
+> 本仓库是 [Zhalslar/astrbot_plugin_parser](https://github.com/Zhalslar/astrbot_plugin_parser) 的 fork（`v1.5.7-fix1`）。相对上游只修了一件事：引用合并转发 / 附件 / 空卡片时不再 `join(None)` 崩溃，异常也不再发到群里。入站合并消息本身仍不解析。
+
 ## 📖 介绍
 
 当前支持的平台和类型：
